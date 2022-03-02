@@ -3,7 +3,7 @@ const Home = () => {
   return (
     <main className="main">
       <div className="container">
-        <div className="sidebar">
+        <section className="sidebar">
           <div className="sidebar__filter">
             <p>Filter</p>
             <div className="sidebar__search">
@@ -19,8 +19,19 @@ const Home = () => {
               
             </div>
           </div>
-        </div>
-        <div className="content">content</div>
+        </section>
+
+
+        <section className="content">
+          <div className="content__header">
+            <div>USER ID</div>
+            <div>TITLE</div>
+            <div>COMPLETED</div>
+          </div>
+          <div className="content__body"></div>
+          <div className="content__footer"></div>
+
+        </section>
       </div>
     </main>
   );

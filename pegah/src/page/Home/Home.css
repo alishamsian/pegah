@@ -11,13 +11,14 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 .sidebar{
     flex: 1;
     margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .sidebar__filter{
     display: flex;
@@ -73,5 +74,21 @@
 
 
 .content {
+    flex: 3;
+}
+
+.content__header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #C2C2C2;
+    color: #003479;
+    font-weight: bold;
+}
+.content__header :nth-child(1){
+    flex: 1;
+}
+.content__header :nth-child(2){
     flex: 3;
 }
