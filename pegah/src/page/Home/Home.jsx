@@ -1,3 +1,4 @@
+import TaskBox from "../../components/TaskBox/TaskBox";
 import "./Home.css";
 const Home = () => {
   return (
@@ -21,17 +22,8 @@ const Home = () => {
           </div>
         </section>
 
+        <TaskBox />
 
-        <section className="content">
-          <div className="content__header">
-            <div>USER ID</div>
-            <div>TITLE</div>
-            <div>COMPLETED</div>
-          </div>
-          <div className="content__body"></div>
-          <div className="content__footer"></div>
-
-        </section>
       </div>
     </main>
   );

@@ -1,0 +1,13 @@
+.content {
+    flex: 3;
+}
+.content__header {
+    border-bottom: 1px solid #C2C2C2;
+    color: #003479;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.content__header.content__box :nth-child(2){
+    margin-left: 25px;
+}
+
